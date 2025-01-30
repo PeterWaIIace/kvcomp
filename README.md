@@ -13,3 +13,23 @@ Just call:
 ```
 uv run .\kvcomp.py .\test1.json .\test2.json
 ```
+
+Example output:
+```
+Unique first JSON file content:
+{
+    "job": "Engineer"
+}
+
+Different values between JSON files:
+{
+    "age": 25,
+    "city": "New York"
+}
+
+Unique second JSON file content:
+{
+    "name": "Alice",
+    "hobby": "Reading"
+}
+```
